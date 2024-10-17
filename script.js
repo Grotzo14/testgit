@@ -9,8 +9,8 @@ toggleButton.addEventListener('click', () => {
     
     // Cambiamos el texto del botón dependiendo del modo activo
     if (body.classList.contains('dark-mode')) {
-        toggleButton.textContent = 'Cambiar a Light Mode';
+        toggleButton.textContent = 'Cambiar a LIGHT Mode';
     } else {
-        toggleButton.textContent = 'Cambiar a Dark Mode';
+        toggleButton.textContent = 'Cambiar a DARK Mode';
     }
 });
