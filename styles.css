@@ -1,3 +1,23 @@
+/* Estilos por defecto (Light Mode) */
 body {
+    background-color: white;
+    color: black;
     font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilos para Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button.dark-mode {
+    background-color: white;
+    color: black;
 }
